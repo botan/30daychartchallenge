@@ -59,4 +59,4 @@ global_warming %>%
     plot.background = element_rect(fill = "black"),
     plot.margin = margin(1, 1, 0.5, 1, unit = "cm")
   )
-ggsave(here("plots", "day6-experimental.png"), width = 6, height = 6.5, dpi = 320)
+ggsave(here("plots", "day6-experimental.png"), width = 6, height = 7, dpi = 320)
