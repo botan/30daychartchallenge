@@ -5,7 +5,6 @@ library(showtext)
 library(here)
 
 # Load font
-font_add_google("Bitter")
 font_add_google("Kadwa")
 showtext_auto()
 
@@ -55,9 +54,9 @@ global_warming %>%
   ) +
   theme_void(base_family = "Kadwa") +
   theme(
-    plot.title = element_text(hjust = 0.5, size = 18, colour = "white"),
+    plot.title = element_text(hjust = 0.5, size = 18, colour = "white", face = "bold"),
     plot.caption = element_text(hjust = 0.5, colour = "white"),
     plot.background = element_rect(fill = "black"),
     plot.margin = margin(1, 1, 0.5, 1, unit = "cm")
   )
-ggsave(here("plots", "day6-experimental.png"), width = 6, height = 7, dpi = 320)
+ggsave(here("plots", "day6-experimental.png"), width = 6, height = 6, dpi = 320)
