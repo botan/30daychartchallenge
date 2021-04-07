@@ -50,7 +50,7 @@ global_warming %>%
   scale_colour_gradientn(colours = pal_strip) +
   labs(
     title = "Global Surface Temperature Anomaly\n(1900 \u2013 2020)",
-    caption = "#30DayChartChallenge\nData: Berkeley Earth\nPlot: Botan Ağın"
+    caption = "#30DayChartChallenge\nData: Berkeley Earth\nViz: Botan Ağın"
   ) +
   theme_void(base_family = "Kadwa") +
   theme(
@@ -59,4 +59,4 @@ global_warming %>%
     plot.background = element_rect(fill = "black"),
     plot.margin = margin(1, 1, 0.5, 1, unit = "cm")
   )
-ggsave(here("plots", "day6-experimental.png"), width = 6, height = 6, dpi = 320)
+ggsave(here("plots", "day6-experimental.png"), width = 6, height = 6.5, dpi = 320)
