@@ -1,5 +1,8 @@
 # #30DayChartChallenge
 
+## Day 5 - Slopes [[code]](https://github.com/botan/30daychartchallenge/blob/main/R/day5-slopes.R)
+![](https://raw.githubusercontent.com/botan/30daychartchallenge/main/plots/day5-slopes.png)
+
 ## Day 6 - Experimental [[code]](https://github.com/botan/30daychartchallenge/blob/main/R/day6-experimental.R)
 ![](https://raw.githubusercontent.com/botan/30daychartchallenge/main/plots/day6-experimental.png)
 
